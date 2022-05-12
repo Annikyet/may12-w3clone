@@ -1,0 +1,48 @@
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 100vh;
+  background-color: darkslategrey;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  position: fixed;
+}
+
+.org-name, .sidebar-link {
+  color: white;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.org-name {
+  margin-top: 10px;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+.sidebar-link {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 18px;
+}
+
+header, main, footer {
+  margin-left: 340px;
+  margin-right: 40px
+}
+
+header {
+  
+}
+
+main {
+  height: 400vh;
+}
