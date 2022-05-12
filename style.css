@@ -53,7 +53,7 @@ header h1 {
   font-weight: bolder;
 }
 
-header h2 {
+h2 {
   margin-top: 10px;
   margin-bottom: 10px;
   font-family: "Poppins", sans-serif;
@@ -62,7 +62,7 @@ header h2 {
   color: darkslategrey;
 }
 
-header hr {
+hr {
   width: 50px;
   margin-top: 20px;
   padding: 5px;
@@ -75,6 +75,18 @@ main {
   height: 400vh;
 }
 
-#photos img {
+section {
+  margin-top: 75px;
+}
+
+#showboat {
+  margin-top: 10px;
+}
+
+#showboat img {
   object-fit: cover;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
 }
